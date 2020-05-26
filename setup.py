@@ -19,13 +19,13 @@ if __name__ == "__main__":
                 'Topic :: Scientific/Engineering',
                 'Topic :: Scientific/Engineering :: Mathematics',
                 'License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)',
-                'Programming Language :: Python :: 3',
+                'Programming Language :: Python :: 2',
             ],
             description = 'A pure Python package to monitor formal specifications over temporal sequences',
-            python_requires='>=3',
+            python_requires='>=2',
             install_requires=[
                 'python-intervals',
-                'antlr4-python3-runtime'
+                'antlr4-python2-runtime'
             ],
             include_package_data=True,
     )
