@@ -2,9 +2,9 @@ Python2 version of the Python-monitors package.
 
 # How to run it:
 1) Install package:
-
+'''
     pip install git+https://github.com/erfanaasi/python2-monitors.git
-    
+'''
 2) Go to the parser folder:
 
     cd parser
