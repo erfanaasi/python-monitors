@@ -25,13 +25,11 @@ Python2 version of the Python-monitors package.
     echo 'export PYTHONPATH="${PYTHONPATH}:/path/to/python2-monitors"' >> ~/.bashrc
     echo 'export PYTHONPATH="${PYTHONPATH}:/path/to/python2-monitors/monitors/parser"' >> ~/.bashrc
 ```
-4) For creating the parser files:
+4) For creating the parser files (same works for RegExp.g4):
 ```bash
     cd <clone-dir>/monitors/parser
     antlr4 -Dlanguage=Python2 PastMTL.g4
 ``` 
-(Same works for RegExp.g4)
-  
 5) To test the installation:
 ```bash
     cd <clone-dir>/examples
