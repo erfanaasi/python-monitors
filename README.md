@@ -4,6 +4,7 @@ Python2 version of the Python-monitors package.
 1) Install package:
 ```
     git clone git@github.com:erfanaasi/python2-monitors.git
+    cd <clone-dir>
     python setup.py install
 ```
 2) Install ctx package:
