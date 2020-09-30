@@ -18,10 +18,10 @@ Python2 version of the Python-monitors package.
 3) For permanent settings use:
 
 ```bash
-cd <clone-dir>
-echo "export CLASSPATH=\".:$PWD/lib/antlr-4.7.1-complete.jar:$CLASSPATH\"" >> ~/.bashrc
-echo "alias antlr4=\"java -jar $PWD/lib/antlr-4.7.1-complete.jar -visitor\"" >> ~/.bashrc
-echo "alias grun=\"java org.antlr.v4.gui.TestRig\"" >> ~/.bashrc
+    cd <clone-dir>
+    echo "export CLASSPATH=\".:$PWD/lib/antlr-4.7.1-complete.jar:$CLASSPATH\"" >> ~/.bashrc
+    echo "alias antlr4=\"java -jar $PWD/lib/antlr-4.7.1-complete.jar -visitor\"" >> ~/.bashrc
+    echo "alias grun=\"java org.antlr.v4.gui.TestRig\"" >> ~/.bashrc
 ```
 4) Go to the parser folder:
 ```
