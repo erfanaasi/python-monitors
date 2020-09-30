@@ -2,7 +2,7 @@ Python2 version of the Python-monitors package.
 
 # How to run it:
 1) Install package:
-```
+```bash
     git clone git@github.com:erfanaasi/python2-monitors.git
     cd <clone-dir>
     python setup.py install
