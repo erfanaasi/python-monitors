@@ -1,9 +1,5 @@
 from antlr4 import *
 
-# from monitors.parser.RegExpLexer import RegExpLexer
-# from monitors.parser.RegExpParser import RegExpParser
-# from monitors.parser.RegExpVisitor import RegExpVisitor
-
 from RegExpLexer import RegExpLexer
 from RegExpParser import RegExpParser
 from RegExpVisitor import RegExpVisitor
