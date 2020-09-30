@@ -31,5 +31,9 @@ Python2 version of the Python-monitors package.
     antlr4 -Dlanguage=Python2 PastMTL.g4
 ``` 
 (Same works for RegExp.g4)
-
-    
+  
+5) To test the installation:
+```bash
+    cd <clone-dir>/examples
+    python example_mtl_1.py
+``` 
