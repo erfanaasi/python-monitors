@@ -23,12 +23,9 @@ Python2 version of the Python-monitors package.
     echo "alias antlr4=\"java -jar $PWD/lib/antlr-4.7.1-complete.jar -visitor\"" >> ~/.bashrc
     echo "alias grun=\"java org.antlr.v4.gui.TestRig\"" >> ~/.bashrc
 ```
-4) Go to the parser folder:
-```
-    cd parser
-```
-5) To make the antlr files compatible with Python2, delete all the files, except "PastMTL.g4" and "RegExp.g4", and run:
-```
+4) For creating the parser files:
+```bash
+    cd <clone-dir>/monitors/parser
     antlr4 -Dlanguage=Python2 PastMTL.g4
 ``` 
 (Same works for RegExp.g4)
