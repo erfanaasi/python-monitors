@@ -22,6 +22,8 @@ Python2 version of the Python-monitors package.
     echo "export CLASSPATH=\".:$PWD/lib/antlr-4.7.1-complete.jar:$CLASSPATH\"" >> ~/.bashrc
     echo "alias antlr4=\"java -jar $PWD/lib/antlr-4.7.1-complete.jar -visitor\"" >> ~/.bashrc
     echo "alias grun=\"java org.antlr.v4.gui.TestRig\"" >> ~/.bashrc
+    echo 'export PYTHONPATH="${PYTHONPATH}:/path/to/python2-monitors"' >> ~/.bashrc
+    echo 'export PYTHONPATH="${PYTHONPATH}:/path/to/python2-monitors/monitors/parser"' >> ~/.bashrc
 ```
 4) For creating the parser files:
 ```bash
