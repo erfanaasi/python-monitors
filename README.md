@@ -7,9 +7,13 @@ Python2 version of the Python-monitors package.
     cd <clone-dir>
     python setup.py install
 ```
-2) Install ctx package:
-```
+2) Install required packages:
+```bash
     pip install ctx
+    mkdir -p lib
+    cd lib
+    wget 'https://www.antlr.org/download/antlr-4.7.1-complete.jar'
+    pip install antlr4-python2-runtime==4.7.1
 ```
 3) Go to the parser folder:
 ```
