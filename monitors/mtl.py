@@ -1,9 +1,9 @@
 from antlr4 import *
 import ctx
 
-from PastMTLLexer import PastMTLLexer
-from PastMTLParser import PastMTLParser
-from PastMTLVisitor import PastMTLVisitor
+from monitors.parser.PastMTLLexer import PastMTLLexer
+from monitors.parser.PastMTLParser import PastMTLParser
+from monitors.parser.PastMTLVisitor import PastMTLVisitor
 
 import intervals
 
